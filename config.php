@@ -1,7 +1,7 @@
 <?php
 
 //Enable/Disable debug mode
-define('DEBUG', true);
+define('DEBUG', false);
 define('LOG_DRIVER', 'stdout'); // Other drivers are: syslog, stdout, stderr, system or file
 
 //Enable/disable url rewrite
@@ -65,3 +65,9 @@ define('LDAP_USER_CREATION', true);
 // LDAP DN for administrators
 // Example: CN=Kanboard-Admins,CN=Users,DC=kanboard,DC=local
 define('LDAP_GROUP_ADMIN_DN', 'cn=DevOps Admin,dc=ibm,dc=com');
+
+//RememberMe Authentication settings
+// Enable/disable remember me authentication
+define('REMEMBER_ME_AUTH', true);
+
+
